@@ -1,0 +1,40 @@
+.connection-status {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.3rem 0.7rem;
+  border-radius: 20px;
+  border: 1px solid var(--border);
+  background: var(--bg-card);
+  transition: all 0.3s ease;
+}
+
+.status-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.connection-status.connected .status-dot {
+  background: var(--success);
+  box-shadow: 0 0 8px var(--success);
+}
+
+.connection-status.disconnected .status-dot {
+  background: var(--text-muted);
+}
+
+.connection-status.connected {
+  border-color: rgba(0, 210, 160, 0.2);
+}
+
+.status-text {
+  color: var(--text-secondary);
+  font-weight: 500;
+  font-size: 0.7rem;
+}
+
+.connection-status.connected .status-text {
+  color: var(--success);
+}
