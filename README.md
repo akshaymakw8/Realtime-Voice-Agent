@@ -9,7 +9,7 @@
 [![OpenAI](https://img.shields.io/badge/OpenAI-Realtime_API-412991?style=flat-square&logo=openai&logoColor=white)](https://platform.openai.com/docs/guides/realtime)
 [![Python](https://img.shields.io/badge/Python-3.9+-3776AB?style=flat-square&logo=python&logoColor=white)](https://python.org)
 [![WebSocket](https://img.shields.io/badge/Protocol-WebSocket-blue?style=flat-square)](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API)
-[![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
+
 
 ---
 
@@ -221,6 +221,3 @@ ws://localhost:8000/ws/{client_id}
 | `GET` | `/` | Health check |
 | `GET` | `/agents` | List available agents |
 
-## License
-
-MIT
